@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    background-color: rgb(232, 232, 232);
+  
+    margin: 0;
+    padding: 0;
+  }
+  .h1remi,
+  .remih2,
+  .aremi {
+    color: rgb(31, 31, 31);
+    font-family: "Lato", sans-serif;
+    text-align: center;
+  }
+  a.button,
+  button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(218, 75, 75);
+    color: white;
+    box-shadow: 0px 2px 2px rgb(110, 0, 0);
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.5s;
+    border: none;
+  }
+  a.button:hover,
+  button:hover {
+    background-color: rgb(255, 44, 44);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  
+    transform: translatey(2px);
+  }
+  p {
+    font-family: "Nunito Sans", sans-serif;
+    color: grey;
+    line-height: 2rem;
+  }
+  
+  .mainContainer {
+    width: 100%;
+    max-width: 1500px;
+    padding: 0px 0px 50px 0px;
+    background-color: white;
+  }
+  #donation {
+    background-color: white;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  section#donation p {
+    max-width: 1100px;
+  }
+  #donation h2 {
+    font-size: 40px;
+    margin: 100px 20px 20px 20px;
+  }
+  #donation p {
+    font-size: 22px;
+    text-align: center;
+    margin: 10px 20px 10px 20px;
+  }
+  #donation .sideComment {
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+  
+    margin: 0px 20px 50px 20px;
+  }
+  #fakeCarousel {
+    display: flex;
+    justify-content: center;
+  
+    flex-wrap: wrap;
+  
+    background-color: white;
+  }
+  .minCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  
+    border: solid red 5px;
+    border-radius: 20px;
+    min-width: 250px;
+  
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+  }
+  .minCard p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    padding: 0 15px;
+  }
+  
+  .minCard img {
+    margin: 20px 0px 10px 0px;
+    width: 80px;
+  }
+  .minCard a {
+    transform: translateY(15px);
+    border: solid 5px white;
+    box-shadow: red;
+    font-size: 20px;
+  }
+  .minCard a:hover {
+    transform: translateY(20px);
+    border: solid 5px white;
+    box-shadow: red;
+  }
+  #payment {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paycard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+  
+    border-radius: 60px;
+    background-color: red;
+    height: 150px;
+    width: 110px;
+  }
+  
+  .paycard p {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .paycard input {
+    width: 100px;
+  
+    font-size: 22px;
+    text-align: center;
+    color: white;
+  
+    border-radius: 20px;
+  
+    background: none;
+    border: solid 3px white;
+  }
+  .paycard input::placeholder {
+    color: rgba(255, 255, 255, 0.765);
+  }
+  #donate {
+    padding: 0;
+  }
+  
+  #donate p.sideComment {
+    margin: 0px 20px 20px 0px;
+  }
+  #donate h2,
+  #donate p {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  header p,
+  header h1 {
+    color: aliceblue;
+    text-shadow: 0px 1px 5px rgb(0, 0, 0), 0px 1px 5px rgb(0, 0, 0);
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 65px;
+    margin: 100px 100px 200px 100px;
+  }
+  header p {
+    margin: 0px 20px 30px 20px;
+    max-width: 900px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  header a.button {
+    font-size: 20px;
+  }
+  .donate_plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-size: 3rem;
+    margin: 10px auto;
+  }
+  
+  .donate_description {
+    color: grey;
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+  }
+  .box_container {
+    display: flex;
+  }
+  .boxes {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .box1 {
+    background: rgb(237, 245, 247);
+  }
+  .box2 {
+    background: rgb(255, 238, 238);
+  }
+  .box3 {
+    background: rgb(255, 244, 214);
+  }
+  h3 {
+    margin: 0;
+  }
+  .description {
+    color: grey;
+    line-height: 1.5rem;
+  }
+  
+  p.sideComment {
+    color: rgb(84, 84, 84);
+    font-size: 30px;
+  
+    margin: 0px 20px 50px 20px;
+  }
+  
+  .action {
+    color: red;
+  }
+  header {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(36, 39, 70)),
+      url(https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: top 0px left 50%;
+    background-size: cover;
+  }
+  header p,
+  .h1remi {
+    color: aliceblue;
+    text-shadow: 0px 1px 5px rgb(0, 0, 0), 0px 1px 5px rgb(0, 0, 0);
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 65px;
+    margin: 100px 100px 200px 100px;
+  }
+  header p {
+    margin: 0px 20px 30px 20px;
+    max-width: 900px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  header a.button {
+    font-size: 20px;
+  }
+  .partie4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .texte4 {
+    margin: 30px;
+  }
+  
+  .partie4 img {
+    max-height: 350px;
+    border-radius: 10px;
+  }
+  
+  .need {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin: 50px auto;
+  }
+  
+  .content {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 90%;
+  }
+  .content2 {
+    margin-left: 50px;
+    width: 90%;
+  }
+  
+  content p {
+    line-height: 1.5rem;
+  }
+  .need img {
+    max-height: 350px;
+    border-radius: 10px;
+  }
+  .container {
+    background: rgb(255, 244, 214);
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .email_container {
+    display: flex;
+  }
+  .email {
+    background: rgb(214, 214, 214);
+    width: 300px;
+    height: 50px;
+    color: grey;
+    padding-left: 20px;
+    border-radius: 10px 0 0 10px;
+  }
+  .subscribe {
+    color: white;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(218, 75, 75);
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .updates,
+  .updates + p {
+    display: flex;
+    justify-content: center;
+  }
+  .behumble {
+    background: black;
+    width: 1500px;
+    text-align: center;
+  }
+  .humble {
+    color: orangered;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Lato";
+    padding-top: 20px;
+  }
+  .doit {
+    letter-spacing: 0.1rem;
+    color: white;
+    padding-bottom: 25px;
+  }
